@@ -1,0 +1,1 @@
+when we divide by 2, if we have a '0' in the units place, we get remaider 0 but if we have '1', our remainder will ve 1 and we will right shift this everytime.
