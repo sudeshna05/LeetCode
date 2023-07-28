@@ -4,6 +4,7 @@ class Solution:
 	def print2largest(self,arr, n):
 		# code here
 		res=set(arr)
+		#new=sorted(res)
 		new=sorted(res,reverse=True)
 		if(len(new)<2):
 		    return -1
