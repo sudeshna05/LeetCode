@@ -19,8 +19,8 @@ public:
         vector<vector<int>>ans;
         for(int i=1;i<=n;i++)
         {
-            vector<int>temp=rownew(i);
-            ans.push_back(temp);
+            //vector<int>temp=rownew(i);
+            ans.push_back(rownew(i));
         }
         return ans;
     }
